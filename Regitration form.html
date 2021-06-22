@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" 
+     href="style.css">
+</head>
+<body>
+    <FIGure>
+        <img src="/Pra.jpg" alt="this is Prakhar" width="50" height="50">
+        <figcaption>CARS-T</figcaption>
+    </FIGure>
+   <center> <h2>CAR Booking And Suggesting</h2> </center>
+   <fieldset>
+       <legend>Your Name</legend>
+       <label>Firstname <input type="text" name = "Firstname"> </label>
+       <label>Lastname <input type="text" name = "Lastname"> </label>
+    </fieldset>
+<br>
+   <fieldset>
+       <legend>For which Use you Want</legend>
+       <label><input type="radio" name="For which Use you Want" value="City">City</label> <br><br>
+       <label><input type="radio" name="For which Use you Want" value="Proffesional">Proffesional</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Type of car you want</legend>
+        <label><input type="checkbox" name="Types of car you want" value="MUV">MUV</label>
+        <label><input type="checkbox" name="Types of car you want" value="SUV">SUV</label>
+        <label><input type="checkbox" name="Types of car you want" value="Sedan">Sedan</label>
+        <label><input type="checkbox" name="Types of car you want" value="Mini SUV">Mini SUV</label>
+        <label><input type="checkbox" name="Types of car you want" value="MINI or MICRO">MINI or MICRO</label>
+    </fieldset>
+    <br>
+    <fieldset>
+            <label>Price Range</label>
+            <select name="Price Range">
+            <option value="4L-8L">4L-8L</option>
+            <option value="8L-12L">8L-12L</option>
+            <option value="12L-15L">12L-15L</option>
+            <option value="15l-20L">15l-20L</option>
+            <option value="20L+">20L</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Contact details and address</legend>
+        <label>Email adress: <input type="Email" name="email" id=""></label>
+       <label> Phone number: <input type="text" name="Phone" id=""></label>
+       <label for="address">Address:</label>
+       <textarea  cols="50" rows="3" name="address" id="address"></textarea>
+ 
+    </fieldset>
+    <h3>Schedule your Visit</h3>
+    <label for="start">Enter Date</label>
+    <input type="date" name="begin" placeholder="DD-MM-YYYY"
+    min="2021-05-12" max="2030-12-31">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</body>
+</html>
